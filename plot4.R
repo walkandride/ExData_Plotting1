@@ -68,6 +68,7 @@ lines(x = t$datetime
 )
 legend("topright"
        , lty = 1
+       , bty = "n"
        , col = c("black", "red", "blue")
        , legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 # plot #4 (lower right)
